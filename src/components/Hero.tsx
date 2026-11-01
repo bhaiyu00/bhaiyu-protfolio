@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { BhaiyuSignature } from './BhaiyuSignature';
 import { useSmoothScroll } from './SmoothScrollProvider';
 import { ROTATOR_WORDS, getNextRotatorIndex } from '../utils/portfolioLogic';
-import { ArrowDown, ArrowUpRight, Compass, Sparkles } from 'lucide-react';
+import { ArrowDown, ArrowUpRight, Compass, Sparkles, Github } from 'lucide-react';
 
 export const Hero: React.FC = () => {
   const [rotatorIndex, setRotatorIndex] = useState(0);
@@ -135,6 +135,19 @@ export const Hero: React.FC = () => {
               >
                 <span>Let's talk</span>
                 <ArrowUpRight className="w-3.5 h-3.5" />
+              </a>
+
+              <a
+                href="https://github.com/bhaiyu00"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-cursor
+                data-cursor-text="GITHUB"
+                className="inline-flex items-center gap-2 px-5 py-4 text-xs font-bold uppercase tracking-wider text-[#333333] hover:text-[#111111] bg-white hover:bg-[#F2ECE1] border border-[#E0DCD2] rounded-full transition-all duration-200 hover:-translate-y-0.5 shadow-2xs"
+                title="View Nishant's GitHub profile (@bhaiyu00)"
+              >
+                <Github className="w-3.5 h-3.5" />
+                <span>GitHub</span>
               </a>
 
               <div className="hidden sm:inline-flex items-center gap-2 text-xs font-mono-code text-[#777777]">

@@ -13,6 +13,7 @@ import { CustomCursor } from './components/CustomCursor';
 import { Hero } from './components/Hero';
 import { About } from './components/About';
 import { Projects } from './components/Projects';
+import { GitHubShowcase } from './components/GitHubShowcase';
 import { Skills } from './components/Skills';
 import { Process } from './components/Process';
 import { Contact } from './components/Contact';
@@ -32,7 +33,7 @@ export default function App() {
 
   // Section observer to update active nav link
   useEffect(() => {
-    const sections = ['home', 'about', 'work', 'skills', 'process', 'contact'];
+    const sections = ['home', 'about', 'work', 'github', 'skills', 'process', 'contact'];
 
     const handleScroll = () => {
       const scrollY = window.scrollY + 200;
@@ -79,6 +80,7 @@ export default function App() {
 
           <About />
           <Projects />
+          <GitHubShowcase />
 
           {/* Dynamic Velocity Scroll Marquee Ribbon 2 */}
           <ScrollMarquee

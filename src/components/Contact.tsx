@@ -223,14 +223,14 @@ export const Contact: React.FC = () => {
                 </a>
 
                 <a
-                  href="https://github.com/nishant"
+                  href="https://github.com/bhaiyu00"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-between p-3 rounded-xl hover:bg-[#FAF9F6] border border-transparent hover:border-[#E8E4DA] transition-all text-xs font-semibold text-[#222222]"
                 >
                   <div className="flex items-center gap-3">
                     <Github className="w-4 h-4 text-[#111111]" />
-                    <span>GitHub Code Repository</span>
+                    <span>GitHub (@bhaiyu00)</span>
                   </div>
                   <ArrowUpRight className="w-3.5 h-3.5 text-[#999]" />
                 </a>

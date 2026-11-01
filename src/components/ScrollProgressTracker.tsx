@@ -28,9 +28,10 @@ export const ScrollProgressTracker: React.FC<ScrollProgressTrackerProps> = ({ ac
     { id: 'home', label: '00 INTRO', target: '#home' },
     { id: 'about', label: '01 PERSPECTIVE', target: '#about' },
     { id: 'work', label: '02 SELECTED WORK', target: '#work' },
-    { id: 'skills', label: '03 TOOLKIT', target: '#skills' },
-    { id: 'process', label: '04 PROCESS', target: '#process' },
-    { id: 'contact', label: '05 INITIATION', target: '#contact' },
+    { id: 'github', label: '03 GITHUB CODE', target: '#github' },
+    { id: 'skills', label: '04 TOOLKIT', target: '#skills' },
+    { id: 'process', label: '05 PROCESS', target: '#process' },
+    { id: 'contact', label: '06 INITIATION', target: '#contact' },
   ];
 
   const handleScrollTo = (target: string) => {

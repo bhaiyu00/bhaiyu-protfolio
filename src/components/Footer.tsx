@@ -52,7 +52,7 @@ export const Footer: React.FC = () => {
               <Mail className="w-3.5 h-3.5" />
               <span>Email</span>
             </a>
-            <a href="https://github.com/nishant" target="_blank" rel="noopener noreferrer" className="hover:text-[#111111] transition-colors flex items-center gap-1.5">
+            <a href="https://github.com/bhaiyu00" target="_blank" rel="noopener noreferrer" className="hover:text-[#111111] transition-colors flex items-center gap-1.5">
               <Github className="w-3.5 h-3.5" />
               <span>GitHub</span>
             </a>

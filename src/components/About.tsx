@@ -50,14 +50,24 @@ export const About: React.FC = () => {
                     <span className="font-handwriting text-2xl text-[#1A1A1A] block">Nishant (bhaiyu)</span>
                     <span className="text-[11px] font-mono-code text-[#888888]">Studio portrait · 2026</span>
                   </div>
-                  <a
-                    href="https://www.instagram.com/bhaiyu_0001/?utm_source=ig_web_button_share_sheet"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-handwriting text-xl text-[#FF887D] hover:underline"
-                  >
-                    @bhaiyu_0001
-                  </a>
+                  <div className="flex flex-col items-end gap-1">
+                    <a
+                      href="https://www.instagram.com/bhaiyu_0001/?utm_source=ig_web_button_share_sheet"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-handwriting text-xl text-[#FF887D] hover:underline"
+                    >
+                      @bhaiyu_0001
+                    </a>
+                    <a
+                      href="https://github.com/bhaiyu00"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[11px] font-mono-code font-bold text-[#1A1A1A] hover:text-[#FF887D] flex items-center gap-1 transition-colors"
+                    >
+                      <span>github / bhaiyu00</span>
+                    </a>
+                  </div>
                 </div>
               </div>
 

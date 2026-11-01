@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BhaiyuSignature } from './BhaiyuSignature';
 import { useSmoothScroll } from './SmoothScrollProvider';
-import { Menu, X, ArrowUpRight } from 'lucide-react';
+import { Menu, X, ArrowUpRight, Github } from 'lucide-react';
 
 interface NavbarProps {
   activeSection: string;
@@ -24,6 +24,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
     { label: 'Home', href: '#home', id: 'home' },
     { label: 'About', href: '#about', id: 'about' },
     { label: 'Work', href: '#work', id: 'work' },
+    { label: 'GitHub', href: '#github', id: 'github' },
     { label: 'Skills', href: '#skills', id: 'skills' },
     { label: 'Process', href: '#process', id: 'process' },
     { label: 'Contact', href: '#contact', id: 'contact' },
@@ -84,7 +85,18 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
           </nav>
 
           {/* Zone 3: Availability Indicator & Primary CTA */}
-          <div className="hidden lg:flex items-center gap-4 shrink-0">
+          <div className="hidden lg:flex items-center gap-3 shrink-0">
+            <a
+              href="https://github.com/bhaiyu00"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-full bg-white/90 border border-[#E8E5DD] text-[#333333] hover:text-[#111111] hover:bg-[#F2ECE1] transition-all shadow-2xs"
+              title="Nishant's GitHub profile (@bhaiyu00)"
+              aria-label="GitHub Profile"
+            >
+              <Github className="w-4 h-4" />
+            </a>
+
             <div className="inline-flex items-center gap-2 text-xs text-[#555555] bg-white/80 border border-[#E8E5DD] px-3 py-1.5 rounded-full shadow-2xs">
               <span className="w-2 h-2 rounded-full bg-[#10B981] animate-pulse" />
               <span className="whitespace-nowrap">Available for select work</span>

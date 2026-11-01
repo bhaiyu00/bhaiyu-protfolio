@@ -30,6 +30,7 @@ export const SmoothScrollProvider: React.FC<{ children: React.ReactNode }> = ({ 
     });
 
     lenisRef.current = lenis;
+    (window as any).lenis = lenis;
 
     // Connect Lenis to requestAnimationFrame
     let rafId: number;
